@@ -6,11 +6,18 @@ $bg-color: rgb(16, 16, 16);
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a,
+h2 {
   color: white;
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
